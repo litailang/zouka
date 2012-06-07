@@ -15,4 +15,9 @@
 			<ref bean="helloResource" />
 		</jaxrs:serviceBeans>
 	</jaxrs:server>
+	<jaxrs:server id="itemorderresource" address="/">
+		<jaxrs:serviceBeans>
+			<ref bean="itemOrderResource" />
+		</jaxrs:serviceBeans>
+	</jaxrs:server>
 </beans>

@@ -15,7 +15,7 @@
 			<plugins>
 				<plugin>
 					<artifactId>maven-resources-plugin</artifactId>
-					<version>2.3</version>
+					<version>2.4</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>
@@ -29,8 +29,8 @@
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>1.5</source>
-					<target>1.5</target>
+					<source>1.6</source>
+					<target>1.6</target>
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
@@ -38,7 +38,7 @@
 				<artifactId>maven-resources-plugin</artifactId>
 				<configuration>
 					<encoding>UTF-8</encoding>
-					<version>2.3</version>
+					<version>2.4</version>
 					<nonFilteredFileExtensions>
 						<nonFilteredFileExtension>csv</nonFilteredFileExtension>
 					</nonFilteredFileExtensions>
